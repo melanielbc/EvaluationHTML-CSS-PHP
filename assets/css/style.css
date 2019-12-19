@@ -1,11 +1,83 @@
 @import url('reset.css');
 
+/* reset perso suite */
+*,*:after,*:before {
+  box-sizing: border-box;
+}
+.clear:before, .clear:after {content: '';display:table}
+.clear:after {clear:both;}
+.clear {*zoom:1;}
+/* CSS Site */ /* MAQUETTE POUR TOUS LES MODELES CSS*/
+.wrap { /*c'est égale à class="wrap"*/
+  width: 100%; /*width permet de spécifier la longueur de la zone de contenu d'un élément (X)HTML dit de type block. ... numérique positif suivi d'une unité de longueur CSS (px ou ex ou em, etc...)*/
+  max-width: 900px; /*max-width permet de spécifier une longueur maximale de la zone de contenu d'un élément (X)HTML dit de type block*/
+  margin: 0 auto; /*margin est un raccourci qui permet de spécifier en une seule fois les propriétés Css margin-top , margin-right , margin-bottom et margin-left; c'est la marge extérieur*/
+}
+
 body {
   background-color: #FFF;
   color:#000;
   font-size: 14px;
   font-family: Verdana, Arial, sans-serif;
 }
+
+.site-title {
+  padding: 80px 0;
+  text-align: center;
+  font-family: 'Girassol', cursive;
+  font-size: 2.2em;
+  background-color: #FFE4C4;
+  color: #000080;
+}
+
+nav {
+  height: 54px;
+}
+
+header nav ul li a {
+  float: left;
+  width: 19.88%;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  padding: 20px 0;
+  border-left: #fff 2px solid;
+  background-color: #9ACD32;
+}
+
+header nav ul li a:hover {
+  border-bottom: #008000 2px solid;
+  color: #8A2BE2;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 1.9em;
+}
+
+#section-principale h3 {
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #696969;
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #FFF8DC;
+  margin-top: 100px;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+
+
+
 
 form {
   background-color: #BC8F8F;

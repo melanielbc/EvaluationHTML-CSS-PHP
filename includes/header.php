@@ -1,5 +1,5 @@
 <header>
-  <h1>Le site de Mélanie Leblanc</h1>
+  <h1 class="site-title">Le site de Mélanie Leblanc</h1>
   <nav>
     <ul>
       <li><a href="index.php?page=accueil" title="Page d'accueil">Accueil</a></li>

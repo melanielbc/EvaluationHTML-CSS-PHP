@@ -1,4 +1,4 @@
-<h1>Contacter nous</h1>
+<h2>Contacter nous</h2>
 <?php
 if (isset($_POST['frmContact'])) {
   $nom = checkInput($_POST['nom']);

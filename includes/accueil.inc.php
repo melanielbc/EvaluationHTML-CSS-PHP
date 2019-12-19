@@ -1,1 +1,4 @@
-<h1>Accueil</h1>
+<h2>Accueil</h2>
+<section id="section-principale">
+
+</section>

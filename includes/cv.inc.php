@@ -1,1 +1,1 @@
-<h1>CV en français</h1>
+<h2>CV</h2>
