@@ -39,10 +39,16 @@
         <li>Sport : Danse pendant 11 ans, Gym au agrès avec une compétition.</li>
         <li>Musique : Pratique la flute traversière depuis 13 ans, niveau 3ème cycle en solfège et ayant fait parti d'un orchestre armonique pendant 7 ans.</li>
         <li>Voyage d'échange : Angleterre, Espagne et Allemagne.</li>
-      </ul>
+      </ul><br/>
+
+      <div id="bonjour">
+        <a href="./assets/pdf/referentdigital.pdf" download>Télécharger mon CV</a>
+        <a href="index?page=cvEtranger">Clique ici pour le cv en anglais</a>
+      </div>
 
   </div>
   <div class="clear"></div>
 
+
+
 </section>
-<a href="index?page=cvEtranger">Clique ici pour le cv en anglais</a>
