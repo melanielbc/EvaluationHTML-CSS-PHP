@@ -1,3 +1,4 @@
+<h2>CV in english</h2>
 <section id="cv-anglais">
   <div class="wrap">
 
