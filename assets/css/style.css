@@ -1,21 +1,20 @@
 @import url('reset.css');
 
-/* reset perso suite */
 *,*:after,*:before {
   box-sizing: border-box;
 }
 .clear:before, .clear:after {content: '';display:table}
 .clear:after {clear:both;}
 .clear {*zoom:1;}
-/* CSS Site */ /* MAQUETTE POUR TOUS LES MODELES CSS*/
-.wrap { /*c'est égale à class="wrap"*/
-  width: 100%; /*width permet de spécifier la longueur de la zone de contenu d'un élément (X)HTML dit de type block. ... numérique positif suivi d'une unité de longueur CSS (px ou ex ou em, etc...)*/
-  max-width: 900px; /*max-width permet de spécifier une longueur maximale de la zone de contenu d'un élément (X)HTML dit de type block*/
-  margin: 0 auto; /*margin est un raccourci qui permet de spécifier en une seule fois les propriétés Css margin-top , margin-right , margin-bottom et margin-left; c'est la marge extérieur*/
+
+.wrap {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 body {
-  background-color: #FFF;
+  background-color: #B5B098;
   color:#000;
   font-size: 14px;
   font-family: Verdana, Arial, sans-serif;
@@ -36,7 +35,7 @@ nav {
 
 header nav ul li a {
   float: left;
-  width: 19.88%;
+  width: 25%;
   text-align: center;
   text-decoration: none;
   color: #000;
@@ -64,6 +63,43 @@ h2 {
   color: #696969;
 }
 
+#section-principale h4 {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#section-principale h5 {
+  font-size: 1em;
+  margin-top: 17px;
+  margin-bottom: 15px;
+  color: #5E9AB4;
+
+}
+
+#cv-anglais h3{
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #696969;
+}
+
+#cv-anglais h4 {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#cv-anglais h5 {
+  font-size: 1em;
+  margin-top: 17px;
+  margin-bottom: 15px;
+  color: #5E9AB4;
+
+}
+
 .puces {
   list-style-type: circle;
 }
@@ -81,9 +117,6 @@ footer {
 footer p {
   text-align: center;
 }
-
-
-
 
 
 
