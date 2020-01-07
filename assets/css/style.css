@@ -113,6 +113,7 @@ div#bonjour {
   line-height: 1.5em;
 }
 
+
 footer {
   padding: 75px 0;
   background-color: #FFE4C4;
@@ -152,4 +153,13 @@ form div input[type="submit"] {
 
 form textarea {
   font-family: Verdana, Arial, sans-serif;
+}
+img#millions{
+  position: absolute;
+  top: 450px;
+  left: 200px;
+
+
+
+
 }
