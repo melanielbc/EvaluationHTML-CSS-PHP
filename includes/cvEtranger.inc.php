@@ -3,7 +3,7 @@
   <div class="wrap">
 
     <h3>Mélanie Leblanc</h3>
-    <h3>Référent digital</h3>
+    <h3>Digital Referent</h3>
 
     <ul>
       <li>05/10/1999</li>
@@ -59,6 +59,11 @@
         <li>Music : Practiced flute for 13 years, 3rd cycle in solfege and having been part of an armonic orchestra for 7 years.</li>
         <li>Exchange trip: England, Spain and Germany.</li>
       </ul>
+
+      <div id="bonjour">
+        <a href="./assets/pdf/referentdigital.pdf" download>Download my CV</a>
+        <a href="index?page=cv">Click here for my French CV</a>
+      </div>
 
   </div>
 

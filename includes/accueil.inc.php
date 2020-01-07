@@ -1,6 +1,10 @@
 <h2>Accueil</h2>
 <section id="section-principale">
   <div class="wrap">
+    <div id="bise">
+      <p>Bonjour</p>
+
+    </div>
 
     <h3>Présentation</h3>
     <div id="test">

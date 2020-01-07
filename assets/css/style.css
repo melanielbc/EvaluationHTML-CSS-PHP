@@ -148,6 +148,30 @@ form textarea {
 
 img#millions{
   position: absolute;
-  top: 400px;
+  top: 550px;
   left: 200px;
+}
+
+div#bise {
+  text-align: center;
+  font-size: 6em;
+  width: 900px;
+  height: 100px;
+  background-color: #FF7B01;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color:#FF7B01; left:0px; top:0px;}
+  25%  {background-color:#FFF72F; left:200px; top:0px;}
+  50%  {background-color:#0093A5; left:200px; top:200px;}
+  75%  {background-color:#30A928; left:0px; top:200px;}
+  100% {background-color:#B361C7; left:0px; top:0px;}
 }
