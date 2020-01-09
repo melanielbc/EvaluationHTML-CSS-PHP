@@ -1,4 +1,4 @@
-<h2>CV in english</h2>
+<h2>Resume</h2>
 <section id="section-principale">
   <div class="wrap">
 

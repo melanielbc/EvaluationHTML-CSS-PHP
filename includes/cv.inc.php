@@ -4,7 +4,7 @@
 
 
     <h3>Mélanie Leblanc</h3>
-    <h3>Référent digital</h3>
+    <h3>Référent Digital</h3>
 
     <ul>
       <li>05/10/1999</li>
